@@ -2,7 +2,7 @@
 --  documentation, see http://haskell.org/cabal/users-guide/
 
 name:                uri-bytestring-aeson
-version:             0.1.0.5
+version:             0.1.0.6
 synopsis:            Aeson instances for URI Bytestring
 -- description:
 homepage:            https://github.com/reactormonk/uri-bytestring-aeson
@@ -25,7 +25,7 @@ library
   -- other-modules:
   -- other-extensions:
   build-depends:
-      base             >= 4.9   && < 4.11
+      base             >= 4.9   && < 4.12
     , uri-bytestring   >= 0.2   && < 0.4
     , aeson            >= 0.11  && < 1.4
     , bytestring       >= 0.9.1 && < 0.11
