@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -fno-warn-orphans #-}
+
 module URI.ByteString.Aeson () where
 
 import           Data.Aeson
